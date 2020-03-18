@@ -1,0 +1,30 @@
+@charset "utf-8";
+Body{
+	background-color:green;
+	color:#000033;
+	font-size:12pt
+}
+h1 {
+	text-align: center;
+	color:red;
+	text-shadow:4px 4px 4px black;
+}
+fieldset{
+	background-color:orange;
+	margin: 0 auto;
+	width: 600px;
+	padding: 10px;
+}
+.menor{
+	width:500px;
+}
+legend,.legenda{
+	font-weight:900;
+	font-size:13pt;
+	color:black;
+}
+input,select,textarea{
+	background-color:white;
+	color:#000066;
+	font-size:12px;
+}

@@ -1,0 +1,30 @@
+body{
+    background-image: url(gramdo.jpg);
+}
+h1{
+    text-align: center;
+    color: red;
+}
+h2{
+    text-align: center;
+}
+ul{
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 200px;
+    padding-right: 50px;
+    
+    font-size: 16px;
+    color:black;
+    border-radius: 3px;
+     
+}
+ a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color:red;
+    text-decoration: none;
+}

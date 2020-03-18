@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="descripton" content="Página">
+    <meta name="keywords" content="html,css">
+    <meta name="aothor" content="Guilherme">
+    <link rel="stylesheet" href="estilo3.css">
+    <title>Site</title>
+</head>
+<body>
+    <a href="index.html">Voltar para página principal</a>
+    <h1>Formularios de Avaliação do Site</h1>
+		<form action="exemplo.php" method="post"
+		name="dados" id="form1">
+		<fieldset>
+			<legend>Dados</legend>
+			<input type="text" id="txtnome" pattern="[A-Za-z]{2,30}" name="txtnome" placeholder="nome">
+			<br>
+			<input type="date" name="nascimento" placeholder="Data de nascimento">
+			<br>
+			<input type="text" id="txtidade" name="txtidade" pattern="[0-9]{1,2}" placeholder="idade">
+			<br>
+			<input type="email" id="txtmail" name="txtmail" placeholder="E-mail">
+			
+			
+			
+			
+			<br>
+			(data e hora):<input type="datetime-local" name="agenda">
+			<br>
+			
+			
+			
+			<fieldset class="menor">
+				<legend>Selecione seu sexo</legend>
+				<input type="radio" name="rdgsexo" id="rdgsexo1" value="m" checked="checked">Masculino<br>
+				<input type="radio" name="rdgsexo" id="rdgsexo2" value="f">Feminino<br>
+				
+		</fieldset>	
+		<fieldset class="menor">
+			<legend>Quais os Produtos voçê mais Gostou:</legend>
+			<input type="checkbox" name="ckinter" id="ckinter1" value="Shoulder">Shoulder Pad<br>
+			<input type="checkbox" name="ckinter" id="ckinter2" value="Capacete">Capacete Fut.Americano<br>
+            <input type="checkbox" name="ckinter" id="ckinter3" value="luva">Luva de WR<br>
+            <input type="checkbox" name="ckinter" id="ckinter4" value="Calça">Calça Fut.Americano<br>
+            <input type="checkbox" name="ckinter" id="ckinter5" value="Bola">Bola Fut.Americano<br>
+            <input type="checkbox" name="ckinter" id="ckinter6" value="Chuteira">Chuteira Fut.Americano<br>
+		</fieldset>
+		
+		<fieldset class="menor">
+			<legend>Avalie o site</legend>
+			1<input type="range" name="valores" value="8" min="1" max="10">10<br>
+		</fieldset>
+		<br><hr>
+		
+			<label class="legenda">Selecione uma cidade:</label>
+			<select name="cidade" id="cidade">
+				<option value="poa">Porto Alegre</option>
+				<option value="alv">Quintão</option>
+				<option value="can">Canoas</option>
+			</select>
+			<hr>
+			
+			
+			<label class="legenda">Observações</label><br>
+			<textarea name="txtoserv" placeholder="Anote aqui suas observaçõaes" maxlength="500" cols="50" rows="5"></textarea><br>
+			
+			<input type="reset" name="btnlimpar" value="Limpar">
+			<input type="submit" name="btnenviar" id="btnenviar" value="Enviar">
+			
+		</fieldset>
+	
+
+
+    
+</body>
+</html>

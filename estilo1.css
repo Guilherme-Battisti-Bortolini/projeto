@@ -1,0 +1,28 @@
+body{
+    
+    background-color:green;
+}
+h1 {
+    color: black;
+}
+table,thead,tbody{
+    
+    border: 2px solid black;
+    border-collapse: collapse;
+    background-color: orange;
+}
+tfoot{
+    text-align: center;
+    color: red;
+}
+th {
+    border: 2px solid black ;
+    border-collapse: collapse;
+    padding: 10px;
+    font-size: 30px;
+}
+td,tr {
+    padding: 10px;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
